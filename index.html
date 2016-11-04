@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>LiuNa--柳娜的个人网站</title>
+		<link rel="SHORTCUT ICON" href="images/favicon.ico">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/tags.js"></script>
+		<!–[if IE]>
+		<script type="text/javascript" src="js/html5.js"></script>
+		<![endif]–>
+<!--下拉列表-->
+<script type="text/javascript">
+$(document).ready(function(){
+//    nav-li hover e
+    var num;
+    $('.nav-main>li[id]').hover(function(){
+       /*图标向上旋转*/
+        $(this).children().removeClass().addClass('hover-up');
+        /*下拉框出现*/
+        var Obj = $(this).attr('id');
+        num = Obj.substring(3, Obj.length);
+        $('#box-'+num).slideDown(300);
+    },function(){
+        /*图标向下旋转*/
+        $(this).children().removeClass().addClass('hover-down');
+        /*下拉框消失*/
+        $('#box-'+num).hide();
+    });
+//    hidden-box hover e
+    $('.hidden-box').hover(function(){
+        /*保持图标向上*/
+        $('#li-'+num).children().removeClass().addClass('hover-up');
+        $(this).show();
+    },function(){
+        $(this).slideUp(200);
+        $('#li-'+num).children().removeClass().addClass('hover-down');
+    });
+});
+</script>
+
+</head>
+
+<body>
+	<header>
+    	<div class="top">
+        	<a href="index.html" class="lo"><div class="logo"><h2>LiuNa 个人网站</h2></div></a>
+            <div class="info">
+            	<!--<div class="email">
+                	<h3>邮箱:</h3><a href="http://mail.126.com/" target=“_blank”>lucky_liuna@126.com</a><br/>
+                    <h3>手机:</h3><p>17600801607</p>
+                </div>-->
+            	<img src="images/erweima.jpg">
+            </div>
+        </div>
+    </header>
+    <nav>
+    	<ul class="nav-main">
+        	<li><a href="index.html">首页</a></li>
+            <li><a href="web.html">网站作品</a></li>
+            <li><a href="平面设计/new_file.html">平面作品</a></li>
+            <li><a href="icon/自定义风格/qqyue/index.html">UI/UE作品</a></li>
+            <li><a href="Abut.html" target="_blank">个人简历</a></li>
+        </ul>
+    </nav>
+    <section>
+    	<div id="content">
+        	<div class="con_top">
+            	<div class="con_top_left">
+                	<div class="master">
+                    	<p><strong>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</strong>柳娜</p>
+                        <p><strong>出生年份：</strong>1986</p>
+                        <p><strong>联系方式：</strong>176-0080-1607</p>
+                        <p><strong>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：</strong><a href="http://mail.126.com/" target=“_blank” style="color: #003EFF;">lucky_liuna@126.com</a></p>
+                    </div>
+                	<div id="tagsList">
+                    	<a href="#/Article.aspx?kid=1" title="HTML+CSS">HTML+CSS</a>
+                        <a href="#/Article.aspx?kid=2" title="团队精神">团队精神</a> 
+                        <a href="#/Article.aspx?kid=3" title="学习能力">学习能力</a> 
+                        <a href="#/Article.aspx?kid=4" title="UI/UE">UI/UE</a> 
+                        <a href="#/Article.aspx?kid=5" title="社会经验">社会经验</a> 
+                        <a href="#/Article.aspx?kid=7" title="项目经验">项目经验</a> 
+                        <a href="#/Article.aspx?kid=8" title="网页设计">网页设计</a> 
+                        <a href="#/Article.aspx?kid=9" title="HTML5+CSS3">HTML5+CSS3</a>
+                        <a href="#/Article.aspx?kid=10" title="Dreamweaver">Dreamweaver</a>  
+                        <a href="#/Article.aspx?kid=11" title="兼容性">兼容性</a> 
+                        <a href="#/Article.aspx?kid=12" title="严谨">严谨</a> 
+                        <a href="#/Article.aspx?kid=13" title="创新">创新</a> 
+                        <a href="#/Article.aspx?kid=14" title="平面设计">平面设计</a> 
+                        <a href="#/Article.aspx?kid=15" title="CSS3">CSS3</a> 
+                        <a href="#/Article.aspx?kid=16" title="职业素质">职业素质</a>
+                        <a href="#/Article.aspx?kid=17" title="Photoshop">Photoshop</a> 
+                        <a href="#/Article.aspx?kid=18" title="完美主义">完美主义</a> 
+                        <a href="#/Article.aspx?kid=19" title="jQuery">jQuery</a> 
+                        <a href="#/Article.aspx?kid=20" title="瀑布流">瀑布流</a>
+                        <a href="#/Article.aspx?kid=21" title="JavaScript">JavaScript</a>
+                        <a href="#/Article.aspx?kid=21" title="git">git</a>
+                        <a href="#/Article.aspx?kid=21" title="jQuery-UI">jQuery-UI</a>
+                        <a href="#/Article.aspx?kid=21" title="webstrom">阅历</a>
+                    </div>
+                </div>
+                <div class="yx-rotaion">
+                	<ul class="rotaion_list">
+                        <li><a href="#"><img src="uploads/1.jpg" alt="扁平化图标作品"></a></li>
+                        <li><a href="#"><img src="HTML/services.jpg" alt="Web前端作品" width="700"></a></li>
+                        <li><a href="#"><img src="icon/img/5m.jpg" alt="手绘作品"></a></li>
+                        <li><a href="#"><img src="icon/自定义风格/qqyue/img/2.jpg" alt="PS写实作品"  width="700"></a></li>
+                    </ul>
+                </div>
+            </div>
+        	<ul class="skill">
+        		<li class="sp"><img src="images/Dreamweaver.png">Dreamweaver</li>
+                <li><img src="images/Fireworks.png">Fireworks</li>
+                <li><img src="images/Photoshop.png">Photoshop</li>
+                <li><img src="images/Illustrator.png">Illustrator</li>
+              
+              
+                <li><img src="images/html5.png">Html5+CSS3</li>
+                <li><img src="images/jQuery.jpg">jQuery</li>
+                <li><img src="images/modao.png">墨刀</li>
+                <li><img src="images/git.png">Git Bash</li>
+                 <li><img src="images/visio.png">Visio</li>              
+                <li><img src="images/Axure.png">Axure Pro</li>
+            </ul>
+
+              <div style="border: 1px solid #C0C0C0;"><iframe frameborder="0" name="i" src="index-a.html" width="100%" height="700px"></iframe></div>	
+
+
+
+         </div>
+    </section>
+    <footer>
+    	<div class="bottom">
+        	<p class="p_01"><a href="#">关于网站</a><span>|</span><a href="#">联系我</a><span>|</span><a href="#">版权声明</a></p>
+            <p class="p_02">版权声明：凡文章来源注明为本站的文章、图片、视频等信息，请在转载时保留本站链接。</p>
+            <p class="p_03">本站部分文章、资源来自互联网，版权归原作者及网站所有，如果侵犯了您的权利，请及时致信告知我站。</p>
+            <p class="p_04">&copy;2015-2015 <strong>柳娜</strong>个人网站</p>
+        </div>
+    </footer>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.yx_rotaion.js"></script>
+<script type="text/javascript">
+	$(".yx-rotaion").yx_rotaion({auto:true});
+</script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册百度账号</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    <script src="js/script/jquery-1.12.3.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <div class="login">
+                <label>我已注册，现在就 </label><input type="button" id ="btn_openlogin" value="登陆">
+            </div>
+            <a href="http://www.baidu.com" class="logo"><img src="images/baidu.gif"></a>
+        </div>
+    </div>
+    <div id="hr"><img src="images/hr.png"></div>
+    <div id="main">
+        <div class="inner">
+            <div class="main_left">
+                <form>
+                    <div class="reg_phone">
+                        <label for="phone">手机号</label><input id="phone" placeholder="可用于登陆或找回密码" type="text">
+                        <span>请输入中国大陆手机号，其他用户不可见</span>
+                        <span>手机号码格式不正确</span>
+                        <span>成功</span>
+                    </div>
+                    <div class="reg_pass">
+                        <label for="pass">密码</label><input id="pass" placeholder="密码" type="text">
+                        <div class="pass_info">
+                            <p><span></span>长度为6-14个字符</p>
+                            <p><span></span>支持数字，大小写字母和标点符号</p>
+                            <p><span></span>不允许有空格</p>
+                        </div>
+                        <div class="pass_error">
+                            <div class="strongBg"><div class="currentS_bg"></div><span class="strongFont">弱</span></div>
+                            <p>请重新设置i，试试数字、字母、符号组合</p>
+                        </div>
+                        <div class="pass_sucess">
+                            <p>成功</p>
+                        </div>
+                    </div>
+                    <label for="txt_test">验证码</label><input type="text" placeholder="验证码" id="txt_test">
+                    <input type="button" value="获取短信验证码" id="btn_identify"><br>
+                    <label></label><input type="checkbox" id="checkBox" checked="checked"><label for="checkBox" id="label">阅读并接受</label><a href="#" class="userProtocal">《百度用户协议》</a><br>
+                    <label ></label><input id="btn_reg" type="submit" value="注册">
+                </form>
+            </div>
+            <div class="main_right">
+                <div class="super_reg">
+                    <h3>手机快速注册</h3>
+                    <ul>
+                        <li>请使用中国大陆手机号，编辑短信：</li>
+                        <li>6-14位字符（支持数字/字母/符号）</li>
+                    </ul>
+                    <ul>
+                        <li>作为登陆密码，发送至：</li>
+                        <li>1069 80000 36590</li>
+                    </ul>
+                    <p>即可注册成功，手机号即为登陆账号。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="inner">
+            <p class="footer">2016 &copy; Baidu</p>
+        </div>
+    </div>
+    <div id="login">
+        <h2>登陆百度账号<span class="close"></span></h2>
+        <div id="login_scan">
+            <h3>手机扫描,安全登陆</h3>
+            <div><img src="images/scan.png"></div>
+            <h4>请使用<span>手机</span><span>百度app</span>扫描登陆</h4>
+            <span></span>
+        </div>
+        <div id="login_main">
+            <div class="login_content">
+                <p class="note_login"><a href="#">短信快捷登陆</a></p>
+                <form class="login_form">
+                    <input type="text" id="login_user" placeholder="手机/邮箱/用户名">
+                    <div class="user_close"></div>
+                    <input type="text" id="login_pass" placeholder="密码">
+                    <div class="pass_close"></div>
+                    <input type="checkbox" checked="checked" id="auto_login"><label for="auto_login" class="auto_login">下次自动登陆</label><a href="#" id="login_ques">登陆遇到问题</a>
+                    <input type="button" value="登录" id="btn_login"/>
+                </form>
+                <a href="index.html" class="quick_login" >立即注册</a>
+            </div>
+            <div class="login_footer">
+                <p>可以使用以下方式注册</p>
+                <span></span>
+                <span></span>
+            </div>
+            <span></span>
+        </div>
+    </div>
+    <div id="screen">
+    </div>
+</body>
+</html>

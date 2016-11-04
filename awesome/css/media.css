@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:992px){
+	.banner_text{
+		
+		padding-top:30px;
+		
+		
+		}
+		
+	
+	}
+	
+@media screen and (max-width:768px){
+	.menu{display:block;}
+	}	
+	

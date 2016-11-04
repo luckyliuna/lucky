@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+/*main*/
+#main{
+
+width: 871px;
+
+margin: 0 auto;
+
+}
+.main_top{
+
+	height: 248px;
+
+}
+.main_top h3{
+	font-size: 60px;
+	text-align: center;
+	padding-top: 88px;
+
+}
+.main_top p{
+	font-size: 14px;
+	color: #898989;
+	text-align: center;
+}
+.input{
+	height: 509px;
+	border-top: 1px solid #898989;
+	border-bottom: 1px solid #898989;
+
+}
+.input h3{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-top: 65px;
+	text-align: center;
+	padding-bottom: 56px;
+}
+.main_form{
+	width: 397px;
+	height: 223px;
+	float: left;
+	margin-right: 69px;
+
+}
+
+.input .xk{
+	width: 396px;
+	height: 43px;
+	border: 1px solid #898989;
+	border-radius: 6px;
+	margin-bottom: 11px;
+
+}
+.main_form h4{
+	line-height: 22px;
+
+}
+.input span{
+	color: #fc0001;
+
+}
+.main_form1{
+	width: 397px;
+	height: 223px;
+	float: left;
+
+
+
+}
+.main_form1 select{
+	width: 147px;
+	height: 24px;
+	border-bottom: 1px solid #898989;
+
+}
+.main_bot{
+	margin-bottom: 77px;
+	height: 616px;
+
+}
+.main_bot p{
+	line-height: 26px;
+}
+.main_bot h3{
+
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-top: 65px;
+	text-align: center;
+	padding-bottom: 56px;
+}
+.bot_xk{
+	width: 390px;
+	height: 32px;
+	background-color: #f5f5f5;
+	display: block;
+	line-height: 32px;
+	padding-left: 14px;
+	margin-bottom: 4px;
+	border-radius: 4px;
+
+}
+.bot_form1{
+	float: left;
+
+}
+.bot_form{
+	float: left;
+	padding-left:61px;
+		margin-bottom: 42px;
+}
+
+
+#textarea{
+	border-radius: 4px;
+}
+.main_bot a{
+	background-image: url(../images/signup_bj_03_03.jpg);background-position: bottom;
+
+
+
+	display: block;
+	width: 120px;
+	height: 47px;
+	border: 1px solid #cdb91a;
+	color: #000;
+	line-height: 47px;
+	text-align: center;
+	font-weight:bold;
+
+	margin-top: 31px;
+
+
+
+}

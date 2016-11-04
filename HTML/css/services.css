@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+/*样式重置开始*/
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+input{border:none;}
+/*样式重置结束*/
+
+
+.title_inner{width:1098px;
+           height:259px;
+            margin:0 auto;}
+.we{font-size:48px;
+    line-height:54px;
+	padding-top:79px;
+	text-align:center;
+	font-family:arial;}
+
+.border{border:1px solid #ddd;
+        width:871px;
+        margin:0 auto;}
+
+#web{margin:0 auto;
+           height:1768px;
+		   width:1198px;}
+.wenzi{width:1198px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:Arial Black;
+	line-height:133px;
+	text-align:center;
+	}
+.web-inner{width:1198px;
+	height:500px;}
+.box_right{float:right;}
+.box_left_top{font-size:36px;
+				font-family:arial;
+				line-height:68px;
+				margin-top:76px;}
+.box3_left_top{font-size:36px;
+				font-family:arial;
+				line-height:68px;
+				margin-top:140px;}
+.box_left{float:left;}
+.box3_left{float:left;}
+.box_left_center{font-size:14px;
+				color:#696363;
+				line-height:24px;}
+.tijiao{height:45px;
+			width:144px;
+			float:left;
+			background-image:url(../images/images/services_bj2_03.jpg);
+			border:1px solid #ceb815;
+			line-height:47PX;
+			text-align:center;
+			font-family:arial;
+			font-size:14px;
+			font-weight:bold;
+			margin-top:20px;}
+.tijiao:hover{background-image:url(../images/box-bj_03.jpg);}
+.anniu{height:45px;
+			width:144px;
+			float:left;
+			border:1px solid #ccc ;
+			line-height:47PX;
+			text-align:center;
+			font-family:arial;
+			font-size:14px;
+			font-weight:bold;
+			background-image:url(../images/box-bj_03.jpg);
+			margin-left:10px;
+			margin-top:20px;}			
+.anniu:hover{background-image:url(../images/images/box-bj_03.jpg);}
+.box1{width:1198px;
+	height:597px;}
+.box1_right{float:left;}
+.box1_left_top{font-size:36px;
+				font-family:arial;
+				line-height:68px;
+				margin-top:150px;}
+.box1_left{float:right;}
+.box1_left_center{font-size:14px;
+				color:#696363;
+				line-height:24px;}
+.tijiao2{height:45px;
+			width:144px;
+			float:left;
+			background-image:url(../images/box-bj_03.jpg);
+			border:1px solid #ceb815;
+			line-height:47PX;
+			text-align:center;
+			font-family:arial;
+			font-size:14px;
+			font-weight:bold;
+			margin-top:20px;}
+.tijiao2:hover{background-image:url(../images/services_bj2_03.jpg);}
+.anniu2{height:45px;
+			width:144px;
+			float:left;
+			border:1px solid #ccc ;
+			line-height:47PX;
+			text-align:center;
+			font-family:arial;
+			font-size:14px;
+			font-weight:bold;
+			background-image:url(../images/services_bj2_03.jpg);
+			margin-left:10px;
+			margin-top:20px;}			
+.anniu2:hover{background-image:url(../images/box-bj_03.jpg);}
+#main{height:940px;
+		width:1200px;
+		margin:0 auto;}
+#main span{font-family:arial;
+			font-size:24px;
+			line-height:60px;
+			font-weight:bold;
+			display:block;
+			height:60px;}
+#main ul li{height:18px;
+			width:374px;
+			float:left;
+			background-image:url(../images/icon_check.png);
+			background-repeat:no-repeat;
+			background-position:left center;
+			padding-left:26px;
+			font-size:14px;}
+.text1{height:144px;
+		width:1200;}		
+.text2{height:108px;
+		width:1200;}		
+.text3{height:18px;
+		width:1200;}		
+.text4{height:72px;
+		width:1200;}		
+.text5{height:36px;
+		width:1200;}		
+#middle{height:105px;
+		width:1200px;
+		margin:0 auto;
+		background-color:#f8e338;}
+.middle-l{margin-left:32px;
+			float:left;}
+.middle-l h2{line-height:40px;
+				margin-top:21px;
+				font-weight:bold;}
+.middle-l p{line-height:21px;}
+.middle-r{width:130px;
+			height:40px;
+			background-color:black;
+			float:right;
+			margin-right:24px;
+			margin-top:33px;
+			line-height:40px;
+			text-align:center;
+			border-radius:6px;
+			font-weight:bold;
+			font-size:14px;
+			font-family:arial}
+.middle-r a{color:#fff;}
+
+
+
